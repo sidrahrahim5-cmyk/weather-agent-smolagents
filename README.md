@@ -10,13 +10,15 @@ featuring a custom tool and a Gradio web interface.
 - [wttr.in](https://wttr.in) - Weather Data API
 
 ## Project Structure
-weather-agent-smolagents/
-├── app.py           # Entry point - Gradio UI
-├── src/
-│   ├── agent.py     # CodeAgent setup
-│   ├── tools.py     # Custom Weather Tool
-│   └── config.py    # Configuration
-└── requirements.txt
+
+    weather-agent-smolagents/
+    ├── app.py              # Entry point - Gradio UI
+    ├── requirements.txt    # Dependencies
+    ├── .env                # HuggingFace token (not in repo)
+    └── src/
+        ├── agent.py        # CodeAgent setup
+        ├── tools.py        # Custom Weather Tool
+        └── config.py       # Configuration
 
 ## How It Works
 1. User enters a city name
